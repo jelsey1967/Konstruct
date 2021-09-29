@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,10 +15,8 @@
 
 	<title>KONSTRUCT</title>
 </head>
-
 <body>
-
-	<section class="main">
+	<section class="main" id="main">
 		<div class="container">
 			<div class="main__body">
 				<img src="img/projeco-logo.png" class="main__logo" alt="logo">
@@ -35,11 +32,11 @@
 			<div class="header__body">
 				<img src="img/projeco-logo-black.png" alt="logo" class="header__logo">
 				<div class="header__nav">
-					<a href="#" class="header__link">HOME</a>
-					<a href="#" class="header__link">ABOUT</a>
-					<a href="#" class="header__link">SERVICES</a>
-					<a href="#" class="header__link">WORK</a>
-					<a href="#" class="header__link">CONTACT</a>
+					<a href="#main" class="header__link">HOME</a>
+					<a href="#about" class="header__link">ABOUT</a>
+					<a href="#services" class="header__link">SERVICES</a>
+					<a href="#work" class="header__link">WORK</a>
+					<a href="#contact" class="header__link">CONTACT</a>
 				</div>
 				<div class="header__burger">
 					<span></span>
@@ -48,7 +45,7 @@
 		</div>
 	</header>
 
-	<section class="our-story">
+	<section class="our-story" id="about">
 		<div class="container">
 			<div class="our-story__body">
 				<h2 class="our-story__title title">OUR STORY</h2>
@@ -75,7 +72,7 @@
 		</div>
 	</section>
 
-	<section class="capabilities">
+	<section class="capabilities" id="services">
 		<div class="container">
 			<div class="capabilities__body">
 				<div class="capabilities__title-block">
@@ -118,7 +115,7 @@
 		</div>
 	</section>
 
-	<section class="get">
+	<section class="get" id="work">
 		<h2 class="get__title">Want to build something amazing?</h2>
 		<a href="#" class="get__button button">GET IN TOUCH</a>
 	</section>
@@ -165,7 +162,7 @@
 							<a href="#" class="footer__link">PARTNERS</a>
 							<a href="#" class="footer__link">NEWS</a>
 						</div>
-						<div class="footer__contact">
+						<div class="footer__contact" id="contact">
 							<p class="footer__title">CONTACT US</p>
 							<p>213 Baker Street<br>
 								Oriel City Kounty<br>
@@ -176,9 +173,9 @@
 						</div>
 					</div>
 					<div class="footer__social">
-						<img src="img/icon/f.png" alt="facebook">
-						<img src="img/icon/twitter.png" alt="twitter">
-						<img src="img/icon/google.png" alt="google">
+						<a href="#"><img src="img/icon/f.png" alt="facebook"></a>
+						<a href="#"><img src="img/icon/twitter.png" alt="twitter"></a>
+						<a href="#"><img src="img/icon/google.png" alt="google"></a>
 					</div>
 				</div>
 			</div>
@@ -190,5 +187,4 @@
 
 	<script src="script.js"></script>
 </body>
-
 </html>

@@ -3,4 +3,8 @@ $(document).ready(function () {
 		$('.header__burger,.header__nav').toggleClass('active');
 		$('body').toggleClass('lock');
 	});
+	$('.header__link').click(function (event) {
+		$('.header__burger,.header__nav').toggleClass('active');
+		$('body').toggleClass('lock');
+	});
 });
