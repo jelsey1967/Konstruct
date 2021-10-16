@@ -69,7 +69,7 @@ body {
 }
 
 .main {
-  background-image: url(/img/bgmain.png);
+  background-image: url("../img/bgmain.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -581,7 +581,7 @@ body {
 
 .get {
   height: calc(400px + 99 * ((100vw - 320px) / (1440 - 320)));
-  background-image: url(/img/bg.png);
+  background-image: url("../img/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

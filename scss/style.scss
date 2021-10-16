@@ -78,7 +78,7 @@ $ColorBlue: #00a4e5;
 }
 
 .main {
-	background-image: url(/img/bgmain.png);
+	background-image: url("../img/bgmain.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -485,7 +485,7 @@ $ColorBlue: #00a4e5;
 
 .get {
 	height: calc(400px + 99 * ((100vw - 320px) / (1440 - 320)));
-	background-image: url(/img/bg.png);
+	background-image: url("../img/bg.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
